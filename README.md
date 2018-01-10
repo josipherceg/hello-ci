@@ -1,2 +1,2 @@
 # hello-ci
-Demo project
+Demo project (Travis CI and Codeclimate).
