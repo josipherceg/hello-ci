@@ -8,7 +8,7 @@ coverage: composer ## Reports Test Coverage
 	vendor/bin/phpunit --configuration phpunit.xml --coverage-text
 
 cs: composer ## Lints your Code
-	vendor/bin/php-cs-fixer fix --config=.php_cs --verbose --diff
+	vendor/bin/php-cs-fixer fix . --rules=@PSR2
 
 unit: composer ## Runs unit tests
 	vendor/bin/phpunit --configuration phpunit.xml

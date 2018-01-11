@@ -4,9 +4,8 @@ namespace Josip\Demo;
 
 class Hello
 {
-	public function world()
-	{
-		return 'Hello world!';
-	}
+    public function world()
+    {
+        return 'Hello world!';
+    }
 }
-
