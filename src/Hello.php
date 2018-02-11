@@ -6,7 +6,7 @@ class Hello
 {
     public function world()
     {
-        return 'Hello world!!!';
+        return 'Hello world!';
     }
 
     public function joe()
