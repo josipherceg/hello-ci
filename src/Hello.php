@@ -8,4 +8,9 @@ class Hello
     {
         return 'Hello world!';
     }
+
+    public function joe()
+    {
+        return 'Hello Joe!';
+    }
 }
